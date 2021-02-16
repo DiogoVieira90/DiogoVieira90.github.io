@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b5179e;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    text-shadow: 5px 5px 0 #000;
+}
+
+header a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+header a::before {
+    content: "";
+    background-color: #4895ef;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.nav-button {
+    display: inline-block;
+    background-color: #4895ef;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0;
+    transition: transform 100ms;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+}
+
+.banner-container {
+    background-image: url(/assets/img/pixel-banner.gif);
+    background-size: cover;
+    height: 807px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 627px;
+    height: 184px;
+    background-color: slateblue;
+    border: 2px solid white;
+    margin-left: 91px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}

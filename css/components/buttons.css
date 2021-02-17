@@ -1,0 +1,16 @@
+.nav-button {
+    display: inline-block;
+    background-color: #4895ef;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0;
+    transition: transform 100ms;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+}

@@ -29,7 +29,7 @@ a::before {
     margin-right: 10px;
 }
 
-#title-container {
+.title-container {
     display: inline-block;
     box-shadow: 10px 10px 0 #000;
     background-color: slateblue;
@@ -37,6 +37,6 @@ a::before {
     text-align: center;
 }
 
-#title-container h1 {
+.title-container h1 {
     margin-bottom: 28px;
 }

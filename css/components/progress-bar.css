@@ -1,0 +1,14 @@
+progress {
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 30px;
+    outline: 5px solid #000;
+}
+
+::-webkit-progress-value {
+    background-color: aqua;
+}

@@ -1,0 +1,10 @@
+.section {
+    background-color: #b5179e;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7209b7 ;
+}
+
+.section .main-title {
+    margin-bottom: 60px;
+}

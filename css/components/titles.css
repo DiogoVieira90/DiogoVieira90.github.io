@@ -1,12 +1,17 @@
-h1 {
-    color: #fff;
+.main-title {
+    color: #f72585;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
     text-shadow: 4px 4px 0 #000;
 }
 
-h2 {
- 
+.main-title._title-sec {
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+}
+
+.sub-title {
     color: #fff;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 30px;

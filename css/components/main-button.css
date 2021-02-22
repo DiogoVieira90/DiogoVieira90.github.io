@@ -1,4 +1,4 @@
-.nav-button {
+.main-button {
     display: inline-block;
     background-color: #4895ef;
     height: 60px;
@@ -9,8 +9,9 @@
     transition: transform 100ms;
     font-size: 20px;
     color: #fff;
+    text-decoration: none;
 }
 
-.nav-button:hover {
+.main-button:hover {
     transform: scale(1.05);
 }

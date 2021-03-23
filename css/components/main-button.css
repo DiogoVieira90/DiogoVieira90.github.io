@@ -10,8 +10,19 @@
     font-size: 20px;
     color: #fff;
     text-decoration: none;
+    font-family: "Fira Code", sans-serif;
+    cursor: pointer;
+    border: none;
 }
 
 .main-button:hover {
     transform: scale(1.05);
+}
+
+.main-button._full {
+    width: 100%;
+}
+
+.main-button._full:hover {
+    transform: scale(1.01);
 }

@@ -27,6 +27,10 @@
   <link rel="stylesheet" href="/css/components/button-arrow.css" />
   <link rel="stylesheet" href="/css/components/node-card.css" />
   <link rel="stylesheet" href="/css/components/main-carrousel.css" />
+  <link rel="stylesheet" href="/css/components/main-form.css" />
+  <link rel="stylesheet" href="/css/components/main-label.css" />
+  <link rel="stylesheet" href="/css/components/main-input.css" />
+  <link rel="stylesheet" href="/css/components/main-footer.css" />
 
 
 </head>
@@ -176,6 +180,35 @@
       repellat culpa odit fuga ullam eaque facilis molestias est magnam quis.
     </p>
   </section>
+
+  <form class="main-form">
+    <legend class="main-title _title-sec">Contatos</legend>
+
+    <label class="main-label" for="name">Nome</label>
+    <input class="main-input" id="name" type="text" required>
+
+    <label class="main-label" for="email">Email</label>
+    <input class="main-input" id="email" type="email" required>
+
+    <label class="main-label" for="message">Mensagem</label>
+    <textarea class="main-input _textarea" id="message" required>
+    </textarea>
+
+    <button class="main-button _full" type="submit">Enviar</button>
+  </form>
+
+  <footer class="main-footer">
+    <a class="action" href="https://twitter.com" target="blank">
+      <img src="/assets/img/icon-twitter.png" alt="Logo do Twiter em pixel art">
+    </a>
+    <a class="action" href="https://youtube.com" target="blank">
+      <img src="/assets/img/icon-youtube.png" alt="Logo do Youtube em pixel art">
+    </a>
+    <a class="action" href="https://discord.com" target="blank">
+      <img src="/assets/img/icon-discord.png" alt="Logo do Discord em pixel art">
+    </a>
+  </footer>
+
   <script src="js/components/main-carrousel.js"></script>
 </body>
 
